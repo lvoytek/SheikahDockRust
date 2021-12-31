@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <template class="RuneWidget" parent="GtkButton">
+        <property name="has-frame">false</property>
+        <child>
+            <object class="GtkBox" id="icons">
+                <child>
+                    <object class="GtkImage" id="background">
+                        <property name="pixel-size">64</property>
+                    </object>
+                </child>
+                <child>
+                    <object class="GtkImage" id="image">
+                        <property name="margin-top">5</property>
+                        <property name="margin-bottom">5</property>
+                        <property name="margin-start">5</property>
+                        <property name="margin-end">5</property>
+                        <property name="pixel-size">48</property>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </template>
+</interface>
