@@ -26,6 +26,6 @@ impl RuneWidget {
             self_.image.set_from_gicon(&icon);
         }
 
-        self_.background.set_from_file(Some("src/rune/rune_background.svg"));
+        self_.background.set_from_file(Some("assets/rune_background.svg"));
     }
 }
