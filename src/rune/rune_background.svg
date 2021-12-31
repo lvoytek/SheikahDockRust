@@ -1,80 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   version="1.1"
-   id="svg71"
-   width="80"
-   height="80"
-   viewBox="0 0 80 80"
-   sodipodi:docname="runesa.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs75" />
-  <sodipodi:namedview
-     id="namedview73"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="5.1036905"
-     inkscape:cx="27.725035"
-     inkscape:cy="46.73089"
-     inkscape:window-width="1290"
-     inkscape:window-height="720"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g77" />
-  <g
-     inkscape:groupmode="layer"
-     inkscape:label="Image"
-     id="g77">
-    <rect
-       style="fill:#03050a;fill-opacity:0.666667"
-       id="rect16976"
-       width="80"
-       height="80"
-       x="0"
-       y="9.5377197e-07" />
-    <g
-       id="g36716"
-       transform="translate(0,-0.00125885)">
-      <rect
-         style="fill:#566e77;fill-opacity:1"
-         id="rect36309"
-         width="3.7795277"
-         height="80.001259"
-         x="0"
-         y="0" />
-      <rect
-         style="fill:#566e77;fill-opacity:1"
-         id="rect36416"
-         width="80.001259"
-         height="3.7795277"
-         x="0"
-         y="76.221733" />
-      <rect
-         style="fill:#566e77;fill-opacity:1"
-         id="rect36628"
-         width="80.001259"
-         height="3.7795277"
-         x="0"
-         y="0" />
-      <rect
-         style="fill:#566e77;fill-opacity:1"
-         id="rect36630"
-         width="3.7795277"
-         height="80.001259"
-         x="76.221733"
-         y="0" />
-    </g>
-  </g>
+<svg width="146" height="146" viewBox="0 0 146 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_141_3837)">
+<rect width="130" height="130" transform="translate(8 8)" fill="url(#paint0_radial_141_3837)" fill-opacity="0.9"/>
+<g opacity="0.7">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.1719 8L8 19.1719V8H19.1719ZM12.5703 12.5703V9.01562L9.01562 12.5703H12.5703Z" fill="#BAEFFB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.1719 138L8 126.828V138H19.1719ZM12.5703 133.43V136.984L9.01562 133.43H12.5703Z" fill="#BAEFFB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M138 19.1719L126.828 8L138 8L138 19.1719ZM133.43 12.5703L136.984 12.5703L133.43 9.01562L133.43 12.5703Z" fill="#BAEFFB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M138 126.828L126.828 138L138 138L138 126.828ZM133.43 133.43L136.984 133.43L133.43 136.984L133.43 133.43Z" fill="#BAEFFB"/>
+<path d="M8.5 123.574V22.4259L22.4259 8.5H123.574L137.5 22.4258V123.574L123.574 137.5H22.4258L8.5 123.574Z" stroke="#BAEFFB"/>
+<path opacity="0.4" d="M12.5625 127.637V18.3634L18.3634 12.5625H127.637L133.438 18.3634V127.637L127.637 133.438H18.3634L12.5625 127.637Z" stroke="#BAEFFB"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_141_3837" x="0" y="0" width="146" height="146" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.308377 0 0 0 0 0.751016 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="hard-light" in2="BackgroundImageFix" result="effect1_dropShadow_141_3837"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_141_3837" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_141_3837" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(65 65) rotate(90) scale(65)">
+<stop offset="0.734325" stop-color="#0B0A0A"/>
+<stop offset="1" stop-opacity="0.95"/>
+</radialGradient>
+</defs>
 </svg>

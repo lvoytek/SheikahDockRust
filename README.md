@@ -26,3 +26,6 @@ Run
 ```bash
 ./target/release/sheikah_dock
 ```
+
+
+Thanks to [Hunter Paramore](https://www.figma.com/@hparamore) for the use of [Zelda UI kit](https://www.figma.com/community/file/965825767811358609) assets.
