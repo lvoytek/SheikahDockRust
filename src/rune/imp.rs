@@ -36,16 +36,13 @@ impl ObjectImpl for RuneWidget {
         self.parent_constructed(obj);
 
         self.icons.set_layout_manager(Some(&gtk::BinLayout::new()));
-
-        // Connect a gesture to handle clicks.
-        let gesture = gtk::GestureClick::new();
-        gesture.connect_released(|gesture, _, _, _| {
-            gesture.set_state(gtk::EventSequenceState::Claimed);
-        });
-        obj.add_controller(&gesture);
     }
 }
 
 impl WidgetImpl for RuneWidget {}
 impl BoxImpl for RuneWidget {}
-impl ButtonImpl for RuneWidget {}
+impl ButtonImpl for RuneWidget {
+    fn clicked(&self, _: &Self::Type) {
+        self.background.set_from_file(Some("assets/rune_background_selected.svg"));
+    }
+}
