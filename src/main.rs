@@ -14,6 +14,16 @@ fn main() {
     application.run();
 }
 
+fn get_app_from_id(id: &str) -> Option<gio::AppInfo> {
+    for app in &gio::AppInfo::all() {
+        if app.id().unwrap().to_string() == id {
+            return Some(app.clone());
+        }
+    }
+
+    None
+}
+
 fn build_ui(app: &gtk::Application) {
     let window = gtk::Window::builder()
         .default_width(800)
@@ -35,7 +45,7 @@ fn build_ui(app: &gtk::Application) {
         .column_spacing(6)
         .build();
 
-    let test_app = gio::AppInfo::all()[11].clone();
+    let test_app = get_app_from_id(&"firefox_firefox.desktop").unwrap();
     let context = grid.display().app_launch_context().clone();
 
     let test_rune = RuneWidget::new();
