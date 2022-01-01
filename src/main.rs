@@ -40,6 +40,12 @@ fn build_ui(app: &gtk::Application) {
 
     let test_rune = RuneWidget::new();
     test_rune.set_app_info(&test_app);
+
+    let width = 800;
+
+    let auto_size = (width / 6) - 12;
+    test_rune.scale_to_size(auto_size);
+
     test_rune.connect_clicked(move |rune| {
         if let Err(err) = test_app.launch(&[], Some(&context)) {
             let parent_window = rune.root().unwrap().downcast::<gtk::Window>().unwrap();

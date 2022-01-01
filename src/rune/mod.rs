@@ -28,4 +28,16 @@ impl RuneWidget {
 
         self_.background.set_from_file(Some("assets/rune_background.svg"));
     }
+
+    pub fn scale_to_size(&self, rune_size: i32) {
+        let self_ = imp::RuneWidget::from_instance(self);
+
+        self_.background.set_pixel_size(rune_size);
+        self_.image.set_pixel_size(rune_size);
+
+        self_.image.set_margin_top(rune_size / 3);
+        self_.image.set_margin_bottom(rune_size / 3);
+        self_.image.set_margin_start(rune_size / 3);
+        self_.image.set_margin_end(rune_size / 3);
+    }
 }
